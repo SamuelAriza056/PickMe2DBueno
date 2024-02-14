@@ -1,0 +1,1165 @@
+fileFormatVersion: 2
+guid: 3308b1e4cc77bc9439ef7fa85c68fc81
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6472d1750833f489322c21c9a84f39
+      internalID: 1235235854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_1"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc9a01bad0661847be626c8f884850f
+      internalID: 968771738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_2"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4278bbf7f0e77944ac60a30f57e5e15
+      internalID: 897470800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_3"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27daf0fc4627e7247a1ef4796d54c847
+      internalID: -1994863125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_4"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdc3a724f8722c478debf559e55d59c
+      internalID: 853606001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_5"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bc73445bb954540bb74a5b7b47beb5
+      internalID: -637038212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_6"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f17cc89e221b349b9970ce875487f8
+      internalID: -1813491217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_7"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f951f04d7856864184ac6d7905c32ff
+      internalID: -790060688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_8"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1fd9e9e3319b14399ce61a10359329
+      internalID: -676980938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_9"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00a8e7cd1df45f438e1d5d376e479d0
+      internalID: -578792164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_10"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a5662a562b1634483686f3b50136e1
+      internalID: 1667880550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_11"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc6c411ee3079e46bdc615d4d05bf8e
+      internalID: -59600826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_12"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d7420e63ae48b4680835fbfb28ac16
+      internalID: -442479067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_13"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dd21e09260559479995f36b8b47a24
+      internalID: -234159200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_14"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77eb10ddeecfca8418c557aab4bdb87c
+      internalID: -1611667221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_15"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1718d7c7e1bdfd54a96dbddb5ba48b43
+      internalID: 440113932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_16"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642ea3cf3dbb3eb49bcf131d9e5f167e
+      internalID: -300875159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_17"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba31d4391d8baa47a292070dadc1f94
+      internalID: -925932734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_18"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cf4340e92ef9140903f1b24d0fad24
+      internalID: -2032564671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_19"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c4ee2470e75664d99679ee213ef69b
+      internalID: 1342876842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_20"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d31b1cdabf2ad044965399eb4b4520d
+      internalID: 1740842303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_21"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8616fc93643b99c45bf9d18d386736c8
+      internalID: 1951201060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_22"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b4f1b548d6f1042995e06aaaf95da6
+      internalID: 1416758065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_23"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944ec9d1ce525034987c4e7441a41f11
+      internalID: -49866872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_24"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db659a766d6d6349acccc3e6c8483dc
+      internalID: 435822971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_25"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0758618cc30194cb8d69ca4994ac74
+      internalID: 1172273890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_26"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a340596a59ef9ed479f9720dadf182ae
+      internalID: -117569818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_27"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6844b00d68ebba247a942eb8f9bdf773
+      internalID: -215482404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_28"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd695072238dbc4fb905cf7a4e1d97b
+      internalID: 1523936101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_29"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321e5720d0a0d064789401d1b4f73561
+      internalID: 790044234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_30"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94157eb8eb0f76f428542c79564a1ce5
+      internalID: -1750398900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_31"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1106356f2ab693b419886b918c16bb63
+      internalID: -1290412110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_32"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddd2fc3c1ba70f4684227d1e2b89eba
+      internalID: 1047108237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_33"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c7c560860781542b9e7b5e8fddae62
+      internalID: -2057141029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_34"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea28ee11fd57124fb396d04082f656f
+      internalID: 2117461906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_35"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764e8bdcb8739444e9320e55d29f0c12
+      internalID: -1058385093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_36"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c3a8897c8c7984f95a024cce5c7f4b
+      internalID: -1699043240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_37"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29881f97bd45e5f4bb454b02492aa82e
+      internalID: 1105571226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_38"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c68851267d770d40bc8a815dd135f3c
+      internalID: 164189761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_39"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e806cb7ef94509a49bbf4bae2f58a72c
+      internalID: -1316307378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_40"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bac5a6291790549b77667601a17957
+      internalID: -1673273595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_41"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae550a859facd2c449c19d3365f9cdff
+      internalID: -85673703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_42"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2635487645d70ed4a9757e0b7bd6f768
+      internalID: -1438670485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_43"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027c133d080c3ff478211ad209ecceec
+      internalID: -1741700629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_44"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2139bd002e79a4a94fbb51a25c237b
+      internalID: -1249196019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_45"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c42821ce876aa2409f701d6e3aace8d
+      internalID: 1282630928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_0": 1235235854
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_1": 968771738
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_10": 1667880550
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_11": -59600826
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_12": -442479067
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_13": -234159200
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_14": -1611667221
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_15": 440113932
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_16": -300875159
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_17": -925932734
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_18": -2032564671
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_19": 1342876842
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_2": 897470800
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_20": 1740842303
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_21": 1951201060
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_22": 1416758065
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_23": -49866872
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_24": 435822971
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_25": 1172273890
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_26": -117569818
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_27": -215482404
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_28": 1523936101
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_29": 790044234
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_3": -1994863125
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_30": -1750398900
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_31": -1290412110
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_32": 1047108237
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_33": -2057141029
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_34": 2117461906
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_35": -1058385093
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_36": -1699043240
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_37": 1105571226
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_38": 164189761
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_39": -1316307378
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_4": 853606001
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_40": -1673273595
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_41": -85673703
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_42": -1438670485
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_43": -1741700629
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_44": -1249196019
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_45": 1282630928
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_5": -637038212
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_6": -1813491217
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_7": -790060688
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_8": -676980938
+      "Gonz\xE1lez_Amor\xF3s_Ainhoa_PersonajePrincipal2_9": -578792164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
