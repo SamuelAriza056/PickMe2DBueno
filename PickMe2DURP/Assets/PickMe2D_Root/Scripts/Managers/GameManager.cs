@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditorInternal;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,15 +25,29 @@ public class GameManager : MonoBehaviour
     //Variables
     public int points;
     public int winPoints;
+    public int sceneToLoad;
 
 
     private void Awake()
     {
         instance = this;
     }
-    
+
+    private void Update()
+    {
+        if (points >= winPoints)
+        {
+            LoadScene(sceneToLoad);
+        }
+    }
+
     public void PointsUp(int gain)
     {
         points += gain;
+    }
+
+    public void LoadScene(int sceneIndex)
+    {
+        SceneManager.LoadScene(sceneIndex);
     }
 }
