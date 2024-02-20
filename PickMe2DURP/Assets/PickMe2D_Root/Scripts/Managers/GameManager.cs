@@ -22,9 +22,17 @@ public class GameManager : MonoBehaviour
     //Fin del singleton básico, se referencia en el awake
 
     //Variables
+    public int points;
+    public int winPoints;
+
+
     private void Awake()
     {
         instance = this;
     }
     
+    public void PointsUp(int gain)
+    {
+        points += gain;
+    }
 }
