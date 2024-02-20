@@ -12,6 +12,11 @@ public class PlayerController : MonoBehaviour
     //Variables de estadisticas del player
     public float speed;
     public float jumpForce;
+    private bool isFacingRight = true;
+
+    [SerializeField] bool isGrounded;
+    [SerializeField] GameObject GroundCheck;
+    [SerializeField] LayerMask groundLayer;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +30,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isGrounded = Physics2D.OverlapCircle(GroundCheck.transform.position, 0.1f, groundLayer);
         Movement();
         Jump();
     }
@@ -33,13 +39,37 @@ public class PlayerController : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
         playerRB.velocity = new Vector2(horizontalInput * speed, playerRB.velocity.y);
+
+        //Flip: Si el valor del input es diferente de 0
+        if (horizontalInput > 0)
+        {
+            if (!isFacingRight)
+            {
+                Flip();
+            }
+        }
+        if (horizontalInput < 0)
+        {
+            if(isFacingRight)
+            {
+                Flip();
+            }
+        }
     }
 
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             playerRB.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
         }
+    }
+
+    void Flip()
+    {
+        Vector3 currentScale = transform.localScale;
+        currentScale.x *= -1;
+        transform.localScale = currentScale;
+        isFacingRight = !isFacingRight;
     }
 }
