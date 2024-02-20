@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         //Flip: Si el valor del input es diferente de 0
         if (horizontalInput > 0)
         {
-            anim.SetBool("Walk", true);
+            anim.SetBool("Walk", true);            
             if (!isFacingRight)
             {
                 Flip();
@@ -52,8 +52,8 @@ public class PlayerController : MonoBehaviour
         }
         if (horizontalInput < 0)
         {
-            anim.SetBool("Walk", true);
-            if(isFacingRight)
+            anim.SetBool("Walk", true);          
+            if (isFacingRight)
             {
                 Flip();
             }
@@ -61,12 +61,13 @@ public class PlayerController : MonoBehaviour
         if (horizontalInput == 0)
         {
             anim.SetBool("Walk", false);
+            
         }
     }
 
     void Jump()
     {
-        anim.SetBool("Jump", !isGrounded);
+        anim.SetBool("Jump", !isGrounded);       
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             playerRB.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
@@ -83,12 +84,9 @@ public class PlayerController : MonoBehaviour
 
     void Attack()
     {
-        anim.SetTrigger("Attack");      
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            if (Input.GetKeyDown(KeyCode.F)) 
-            {
-                anim.SetTrigger("Attack");
-            }
+            anim.SetTrigger("Attack");
         }
     }
 }
