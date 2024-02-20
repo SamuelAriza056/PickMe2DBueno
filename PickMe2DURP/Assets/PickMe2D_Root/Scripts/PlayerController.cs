@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(GroundCheck.transform.position, 0.1f, groundLayer);
         Movement();
         Jump();
+        Attack();
     }
 
     void Movement()
@@ -78,5 +79,16 @@ public class PlayerController : MonoBehaviour
         currentScale.x *= -1;
         transform.localScale = currentScale;
         isFacingRight = !isFacingRight;
+    }
+
+    void Attack()
+    {
+        anim.SetTrigger("Attack");      
+        {
+            if (Input.GetKeyDown(KeyCode.F)) 
+            {
+                anim.SetTrigger("Attack");
+            }
+        }
     }
 }
