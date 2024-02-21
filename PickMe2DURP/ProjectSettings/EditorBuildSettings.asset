@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PickMe2D_Root/Scenes/MainMenu.unity
-    guid: 7701f09350652c8419c20622f9e8a6ae
-  - enabled: 1
     path: Assets/PickMe2D_Root/Scenes/AlbertScene.unity
     guid: bcc80312b05578b42a519cce8288467b
   - enabled: 1

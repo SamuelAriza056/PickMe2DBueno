@@ -6688,7 +6688,6 @@ GameObject:
   - component: {fileID: 1782226445}
   - component: {fileID: 1782226444}
   - component: {fileID: 1782226443}
-  - component: {fileID: 1782226448}
   - component: {fileID: 1782226447}
   - component: {fileID: 1782226450}
   - component: {fileID: 1782226451}
@@ -6819,18 +6818,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1782226448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1782226442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0228b32a41a1a2a438f138fb63589351, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1782226450
 BoxCollider2D:
   m_ObjectHideFlags: 0

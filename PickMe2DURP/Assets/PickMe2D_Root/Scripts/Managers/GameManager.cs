@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,7 +13,7 @@ public class GameManager : MonoBehaviour
         { 
             if (instance == null)
             {
-                Debug.Log("GAme MAnager is Null");
+                Debug.Log("Game Manager is Null");
             }
 
             return instance;
