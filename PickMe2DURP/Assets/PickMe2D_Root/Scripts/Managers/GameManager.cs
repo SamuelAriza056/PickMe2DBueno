@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     public int points;
     public int winPoints;
     public int sceneToLoad;
+   
 
 
     private void Awake()
@@ -49,4 +50,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex);
     }
+
+    
+    
+
+    
 }
