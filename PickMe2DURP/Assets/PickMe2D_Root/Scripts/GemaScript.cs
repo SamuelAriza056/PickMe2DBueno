@@ -10,6 +10,7 @@ public class GemaScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            AudioManafer.Instance.PlaySFX(0);
             GameManager.Instance.PointsUp(pointSum);
             gameObject.SetActive(false);
         }
