@@ -1,5 +1,7 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -17,6 +19,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool isGrounded;
     [SerializeField] GameObject GroundCheck;
     [SerializeField] LayerMask groundLayer;
+    [SerializeField] int vida;
+    [SerializeField] int maxVida = 5;
+    [SerializeField] int minVida = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -87,6 +92,20 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             anim.SetTrigger("Attack");
+        }
+    }
+
+    void Vida()
+    {
+        vida = 5;
+        
+        if (vida == maxVida)
+        {
+            maxVida = vida;
+        }
+        if (vida == minVida)
+        {
+            
         }
     }
 }
