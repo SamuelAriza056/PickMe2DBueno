@@ -5,6 +5,11 @@ using UnityEngine;
 public class AtaqueGolem : MonoBehaviour
 {
     public Animator anim;
+    public GameObject[] vidas;
+
+    public static PlayerController playerController;
+    public static GameManager gameManager;
+
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,15 +19,11 @@ public class AtaqueGolem : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (gameObject.CompareTag("Player"))
+        {
+            GameManager.Instance.PerderVidas();
+        }
     }
 }

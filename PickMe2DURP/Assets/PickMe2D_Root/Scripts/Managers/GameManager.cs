@@ -8,7 +8,8 @@ public class GameManager : MonoBehaviour
 {
     //Inicio del singleton básico
     private static GameManager instance;
-    private static PlayerController playerController;
+    public static PlayerController playerController;
+    public static AtaqueGolem ataqueGolem;
     public static GameManager Instance
     {
         get 
@@ -58,7 +59,4 @@ public class GameManager : MonoBehaviour
         vidas -= 1;
         playerController.DesactivarVidas(vidas);
     }
-    
-
-    
 }

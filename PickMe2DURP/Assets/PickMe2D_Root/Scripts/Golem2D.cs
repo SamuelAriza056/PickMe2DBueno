@@ -56,12 +56,4 @@ public class Golem2D : MonoBehaviour
     {
         hit.GetComponent <BoxCollider2D>().enabled = false;
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(gameObject.CompareTag("Player"))
-        {
-            GameManager.Instance.PerderVidas();
-        }
-    }
 }
