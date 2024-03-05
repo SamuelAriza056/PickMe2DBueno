@@ -19,9 +19,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool isGrounded;
     [SerializeField] GameObject GroundCheck;
     [SerializeField] LayerMask groundLayer;
-    [SerializeField] int vida;
-    [SerializeField] int maxVida = 5;
-    [SerializeField] int minVida = 0;
+
+    public GameObject[] vidas;
 
     // Start is called before the first frame update
     void Start()
@@ -95,17 +94,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void Vida()
+    public void DesactivarVidas(int indice)
     {
-        vida = 5;
-        
-        if (vida == maxVida)
-        {
-            maxVida = vida;
-        }
-        if (vida == minVida)
-        {
-            
-        }
+        vidas[indice].SetActive(false);
+    }
+
+    public void ActivarVidas(int indice)
+    {
+        vidas[indice].SetActive(true);
     }
 }

@@ -25,8 +25,8 @@ public class GameManager : MonoBehaviour
     public int points;
     public int winPoints;
     public int sceneToLoad;
-   
 
+    private int vidas = 3;
 
     private void Awake()
     {
@@ -51,7 +51,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneIndex);
     }
 
-    
+    public void PerderVidas()
+    {
+        vidas -= 1;
+        PlayerController.DesactivarVidas(vidas);
+    }
     
 
     
