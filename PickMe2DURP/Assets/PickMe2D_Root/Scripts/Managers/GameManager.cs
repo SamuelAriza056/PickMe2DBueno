@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     //Inicio del singleton básico
     private static GameManager instance;
+    private static PlayerController playerController;
     public static GameManager Instance
     {
         get 
@@ -54,7 +56,7 @@ public class GameManager : MonoBehaviour
     public void PerderVidas()
     {
         vidas -= 1;
-        PlayerController.DesactivarVidas(vidas);
+        playerController.DesactivarVidas(vidas);
     }
     
 
