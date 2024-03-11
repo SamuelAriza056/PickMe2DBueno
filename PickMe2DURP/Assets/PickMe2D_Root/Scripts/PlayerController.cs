@@ -128,10 +128,7 @@ public class PlayerController : MonoBehaviour
     {
         if (playerVidas == 0)
         {
-            void SceneLoader(int sceneToLoad)
-            {
-                SceneManager.LoadScene(sceneToLoad);
-            }
+            
         }
     }
 }
