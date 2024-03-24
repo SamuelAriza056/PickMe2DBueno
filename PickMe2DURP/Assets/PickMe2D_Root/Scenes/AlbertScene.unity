@@ -673,6 +673,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1782226443}
+  vidas:
+  - {fileID: 1792330283}
+  - {fileID: 1369601892}
+  - {fileID: 1990312521}
+  - {fileID: 789072397}
+  - {fileID: 1423827473}
 --- !u!61 &63619750
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -705,7 +711,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.333704, y: -0.0943079}
+  m_Offset: {x: 0.3997631, y: -0.0943079}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -716,7 +722,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.667408, y: 1.6238823}
+  m_Size: {x: 1.7995262, y: 1.6238823}
   m_EdgeRadius: 0
 --- !u!4 &63619751
 Transform:
@@ -6167,7 +6173,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045955138}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.76270676, y: -0.0022702217, z: -10}
+  m_LocalPosition: {x: -0.75484085, y: -0.002289772, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7058,7 +7064,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.560936, y: -0.05129814}
+  m_Offset: {x: 1.0456696, y: -0.05129814}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7069,7 +7075,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.121872, y: 1.7181778}
+  m_Size: {x: 3.091339, y: 1.7181778}
   m_EdgeRadius: 0
 --- !u!4 &1571884601
 Transform:
@@ -7760,6 +7766,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4808667520522536946, guid: 840d76a978db6c64c922c7111a10b1da, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4939959857282245958, guid: 840d76a978db6c64c922c7111a10b1da, type: 3}
       propertyPath: m_Name
       value: Player
@@ -7808,6 +7818,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6738443149613620429, guid: 840d76a978db6c64c922c7111a10b1da, type: 3}
+      propertyPath: vidas.Array.data[0]
+      value: 
+      objectReference: {fileID: 1792330283}
+    - target: {fileID: 6738443149613620429, guid: 840d76a978db6c64c922c7111a10b1da, type: 3}
+      propertyPath: vidas.Array.data[1]
+      value: 
+      objectReference: {fileID: 1369601892}
+    - target: {fileID: 6738443149613620429, guid: 840d76a978db6c64c922c7111a10b1da, type: 3}
+      propertyPath: vidas.Array.data[2]
+      value: 
+      objectReference: {fileID: 1990312521}
+    - target: {fileID: 6738443149613620429, guid: 840d76a978db6c64c922c7111a10b1da, type: 3}
+      propertyPath: vidas.Array.data[3]
+      value: 
+      objectReference: {fileID: 789072397}
+    - target: {fileID: 6738443149613620429, guid: 840d76a978db6c64c922c7111a10b1da, type: 3}
+      propertyPath: vidas.Array.data[4]
+      value: 
+      objectReference: {fileID: 1423827473}
     - target: {fileID: 8447032926491508283, guid: 840d76a978db6c64c922c7111a10b1da, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1
