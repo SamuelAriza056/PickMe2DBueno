@@ -2,7 +2,10 @@ using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net.Http.Headers;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -20,14 +23,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject GroundCheck;
     [SerializeField] LayerMask groundLayer;
 
-    public GameObject[] vidas;
+    public int playerVidas = 5;
+    public Image[] vidas;
 
     // Start is called before the first frame update
     void Start()
     {
         playerRB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-
+        playerVidas = 5;
         
     }
 
@@ -38,6 +42,7 @@ public class PlayerController : MonoBehaviour
         Movement();
         Jump();
         Attack();
+        Muerte();
     }
 
     void Movement()
@@ -96,11 +101,34 @@ public class PlayerController : MonoBehaviour
 
     public void DesactivarVidas(int indice)
     {
-        vidas[indice].SetActive(false);
+        vidas[indice].gameObject.SetActive(false);
     }
 
     public void ActivarVidas(int indice)
     {
-        vidas[indice].SetActive(true);
+        vidas[indice].gameObject.SetActive(true);
+    }
+
+    public void PerderVidas()
+    {
+        playerVidas -= 1;
+        DesactivarVidas(playerVidas);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("EnemyAttack"))
+        {
+            Debug.Log("Has sido golpeado");
+            PerderVidas();
+        }
+    }
+    
+    private void Muerte()
+    {
+        if (playerVidas == 0)
+        {
+            
+        }
     }
 }

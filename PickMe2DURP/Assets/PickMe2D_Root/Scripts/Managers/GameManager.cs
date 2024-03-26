@@ -54,9 +54,5 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneIndex);
     }
 
-    public void PerderVidas()
-    {
-        vidas -= 1;
-        playerController.DesactivarVidas(vidas);
-    }
+    
 }
